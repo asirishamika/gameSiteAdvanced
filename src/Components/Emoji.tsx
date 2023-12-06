@@ -11,7 +11,7 @@ const Emoji = ({ rating }: Props) => {
 
   const emojiMap: { [key: number]: ImageProps } = {
     3: { src: thumbUp, alt: "thumbup" },
-    4: { src: trend, alt: "Trend" },
+    4: { src: trend, alt: "Trending" },
     5: { src: favorite, alt: "Favorites" },
   };
 
